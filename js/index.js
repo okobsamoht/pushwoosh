@@ -87,7 +87,7 @@ function registerPushwooshAndroid() {
 			  });
 
 	//projectid: "GOOGLE_PROJECT_ID", appid : "PUSHWOOSH_APP_ID"
-	pushNotification.registerDevice({ projectid: "rare-truck-546", appid : "BC7B4-D94EF" },
+	pushNotification.registerDevice({ projectid: "478851719352", appid : "BC7B4-D94EF" },
 									function(token) {
 										alert(token);
 										//callback when pushwoosh is ready
